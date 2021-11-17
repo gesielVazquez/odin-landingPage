@@ -133,7 +133,7 @@ img{
     flex-direction: column;
 }
 
-.message{
+.paragraph{
     font-style: italic;
     font-size: 36px;
     text-align: justify;
@@ -141,5 +141,46 @@ img{
 
 .autor{
     align-self: flex-end;
+    font-weight: bolder;
+}
+
+/* Cuarta Parte */
+.section-4{
+    background-color:#f9faf8;
+    height: 300px;  
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.board{
+    display: flex;
+    flex: 1;
+    color: #E5e7eb;
+    background-color: #3882F6;
+    max-width: 70%;
+    padding: 40px;
+
+    border-radius: 8px;
+}
+
+.left{
+    flex: 1;
+    padding-left: 40px;
+
+}
+
+.right{
+    border-radius: 8px;
+    border: solid 3px;
+    justify-self: flex-end;
+    flex: .13;
+    margin-right: 40px;
+ 
+}
+
+.phrase{
     font-weight: bolder;
 }
