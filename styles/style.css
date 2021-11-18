@@ -184,3 +184,14 @@ img{
 .phrase{
     font-weight: bolder;
 }
+
+/* footer */
+
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
